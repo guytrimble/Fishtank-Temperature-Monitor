@@ -20,7 +20,7 @@ body {
 
 .above {
     position: absolute;
-    top: 17%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 50px;
@@ -28,5 +28,5 @@ body {
 
 img {
   width: auto;
-  height: 500px;
+  height: 350px;
 }
