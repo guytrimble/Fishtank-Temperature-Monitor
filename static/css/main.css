@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+
+body {
+    background-color: pink;
+    color: #ff33f3;
+}
+.container {
+    position: relative;
+    text-align: center;
+    font-family: 'Ribeye Marrow', serif;
+}
+
+.below {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+  }
+
+.above {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
