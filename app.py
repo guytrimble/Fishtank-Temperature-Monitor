@@ -1,6 +1,8 @@
 from flask import Flask, render_template
 import paho.mqtt.client as paho
 import os
+from dotenv import load_dotenv
+load_dotenv()
 
 temperature = -1
 username = os.getenv('MQTT_FISHTANK_USER')
