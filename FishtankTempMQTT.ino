@@ -13,9 +13,9 @@ const char* ssid{ SECRET_SSID };
 const char* password{ SECRET_PASSWORD };
 
 // MQTT info
-const char* mqtt_server{ "9b72b40ad1284a80a9c61f5bc4e140ce.s1.eu.hivemq.cloud" };
-const char* mqtt_username{ "fishtank" };
-const char* mqtt_password{ "123fishtank" };
+const char* mqtt_server{ SECRET_SERVER };
+const char* mqtt_username{ SECRET_MQTT_U };
+const char* mqtt_password{ SECRET_MQTT_P };
 const int mqtt_port{ 8883 };
 
 // Secure WiFi Connectivity
