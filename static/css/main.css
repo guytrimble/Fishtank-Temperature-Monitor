@@ -3,25 +3,67 @@
 body {
     background-color: pink;
     color: #ff33f3;
-}
-.container {
-    position: relative;
-    text-align: center;
     font-family: 'Ribeye Marrow', serif;
+    font-size: 30px;
 }
 
-.below {
-    position: absolute;
-    top: 83%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 45px;
-  }
+.box {
+  height: 100vh;
+  position: relative;
+}
 
-.above {
-    position: absolute;
-    top: 17%;
+.textB {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.textA {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media screen and (min-width: 768px) {
+  .textA {
+    top: 27.5%;
     left: 50%;
-    transform: translate(-50%, -50%);
     font-size: 50px;
   }
+
+  .textB {
+    top: 72.5%;
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    width: 50%;
+  }
+
+  .textA {
+      top: 20%;
+      left: 50%;
+      font-size: 50px;
+  }
+  
+  .textB {
+      top: 80%;
+      font-size: 50px;
+  }
+}
